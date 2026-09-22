@@ -1,0 +1,4 @@
+import pandas as pd
+data = { 'apples' : [3, 2, 0, 1] , 'oranges' : [0, 3, 7, 2] , 'Mangoes' : [1, 0, 2, 1] }
+df = pd.DataFrame(data, index = ['A', 'B', 'C', 'D'])
+print(df.loc["A"])
